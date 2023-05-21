@@ -1,0 +1,37 @@
+names:                          # Names of classes after SPI remapping
+- Parking-Sign                  # 0   
+- Pedestrian_Crossing           # 1  
+- Round-About                   # 2  
+- Warning                       # 3  
+- bump                          # 4 
+- do_not_enter                  # 5  
+- do_not_u_turn                 # 6   
+- no_parking                    # 7
+- no_waiting                    # 8 
+# ------ Speed Limits (without +128) -------
+- speed_limit_100               # 100 
+- speed_limit_120               # 120 
+- speed_limit_20                # 20 
+- speed_limit_30                # 30 
+- speed_limit_40                # 40 
+- speed_limit_50                # 50 
+- speed_limit_60                # 60 
+- speed_limit_70                # 70 
+- speed_limit_80                # 80
+- speed_limit_90                # 90
+# ------------------------------------------
+- stop                          # 9 
+- u_turn                        # 10  
+
+nc: 21                        # Number of classes
+
+# ----------------------------------------------------------------------------
+roboflow:
+  license: CC BY 4.0
+  project: new_classes
+  url: https://universe.roboflow.com/classes-ehzdo/new_classes/dataset/4
+  version: 4
+  workspace: classes-ehzdo
+test: ../test/images
+train: new_classes-4/train/images
+val: new_classes-4/valid/images

@@ -1,0 +1,7 @@
+# --- Code to automaticly run Road Traffic Sign Detection (RTSD) project ---
+
+# weights: 'weights_rtsd_bump.pt'
+# source: 0   (webcam)
+# you can find all parameters to pass in "./ultralytics/yolo/cfg/default.yaml"
+# all classes (signs + bump) are found in "data_after_bumps.yaml"
+
