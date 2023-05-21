@@ -1,7 +1,7 @@
 <div align="center">
   <p>
-    <a href="https://ultralytics.com/yolov8" target="_blank">
-      <img width="100%" src="yolov8_banner_rounded.png"></a>
+    <a href="https://github.com/MohamedAtef321/YOLOv8-Extended-Edition" target="_blank">
+      <img width="100%" src="images/yolov8_banner_rounded.png"></a>
   </p>
 
 # YOLOv8: Extended Edition
@@ -300,21 +300,21 @@ We added new features to YOLOv8, including:
 YOLOv8 can now see in the dark! We added support for night vision cameras, which can be used to detect objects in low-light conditions.
 
 <div align="center">
-  <img width="80%" src="night_vision_readme.png">
+  <img width="80%" src="images/night_vision_readme.png">
 </div>
 
 - 🛣 `Lane Line Detection`: \
 YOLOv8 can now detect lane lines on the road! This feature is useful for self-driving cars and other autonomous vehicles.
 
 <div align="center">
-  <img width="80%" src="lane_line_detection_readme.png">
+  <img width="80%" src="images/lane_line_detection_readme.png">
 </div>
 
 - 🔌 `SPI output`: \
 YOLOv8 can now output data over SPI, which is useful for connecting to other devices such as Arduino boards, Raspberry Pis or ESP32s.
 
 <div align="center">
-  <img width="80%" src="spi_raspberry_bins.png">
+  <img width="80%" src="images/spi_raspberry_bins.png">
 
   ## 📚 Documentation
 
@@ -533,7 +533,7 @@ lane_detection=true
 
 An example to differentiate between Lane Line Detection modes and their (Saved/Shown) results:
 
-![Example Image](lane_line_detection_readme.png)
+![Example Image](images/lane_line_detection_readme.png)
 
 </details>
 
