@@ -1,5 +1,5 @@
 names:                          # Names of classes after SPI remapping
-- Parking-Sign                  # 0   
+- Parking-Sign                  # 11 
 - Pedestrian_Crossing           # 1  
 - Round-About                   # 2  
 - Warning                       # 3  

@@ -70,6 +70,7 @@ def spi_remap(c):
     """
 
     class_map = {
+        # Speed Limits
         9  : 100,
         10 : 120,
         11 : 20,
@@ -80,8 +81,12 @@ def spi_remap(c):
         16 : 70,
         17 : 80,
         18 : 90,
+        
+        # Other signs
         19 : 9,
-        20 : 10}
+        20 : 10,
+        0  : 11
+        }
 
     if c in class_map.keys():
         if c >= 9 and c <= 18:
